@@ -79,29 +79,19 @@ body {
 
 
 
-
 .inicio {
-    min-height: 650px;
     width: 100%;
+    min-height: 650px;
 
     display: flex;
     align-items: center;
-    justify-content: flex-start;
 
-    padding: 60px 8%;
-
-    background-image:
-        linear-gradient(
-            90deg,
-            rgba(0, 0, 0, 0.20),
-            rgba(0, 0, 0, 0.05)
-        ),
-        url("./marvel-fundo.png");
-
+    background-image: url("./marvel-fundo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 
 .conteudo-inicio {
