@@ -82,6 +82,7 @@ body {
 /* PÁGINA INICIAL */
 
 
+
 .inicio {
     width: 100%;
     min-height: 650px;
@@ -92,27 +93,31 @@ body {
 
     padding: 60px 8%;
 
-    background: url("./marvel-fundo.png") center / cover no-repeat !important;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.05)
+        ),
+        url("./marvel-fundo.png") center / cover no-repeat !important;
 }
 
-
-/* CONTEÚDO PRINCIPAL */
-
-
 .conteudo-inicio {
-    max-width: 600px;
+    max-width: 550px;
     position: relative;
     z-index: 1;
 }
 
 .conteudo-inicio h2 {
-    font-size: 45px;
+    font-size: 48px;
+    line-height: 1.15;
     color: white;
     margin-bottom: 20px;
 }
 
 .conteudo-inicio h2 span {
     color: #e62429;
+    display: block;
 }
 
 .conteudo-inicio p {
@@ -121,6 +126,7 @@ body {
     line-height: 1.7;
     margin-bottom: 30px;
 }
+
 
 /* BOTÃO EXPLORAR */
 
