@@ -81,18 +81,20 @@ body {
 
 /* PÁGINA INICIAL */
 
+
 .inicio {
     width: 100%;
     min-height: 650px;
 
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 
-    background-image: url("./marvel-fundo.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    padding: 60px 8%;
+
+    background: url("./marvel-fundo.png") center / cover no-repeat !important;
 }
+
 
 /* CONTEÚDO PRINCIPAL */
 
