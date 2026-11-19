@@ -255,3 +255,102 @@ body {
     }
 
 }
+
+
+/* SEÇÕES DE CONTEÚDO */
+
+.secao-conteudo {
+    padding: 80px 6%;
+    background-color: #101010;
+    border-top: 1px solid #292929;
+}
+
+.titulo-secao {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.titulo-secao h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.titulo-secao h2 span {
+    color: #e62429;
+}
+
+.titulo-secao p {
+    color: #bbbbbb;
+    font-size: 17px;
+}
+
+/* CARTÕES DE PERSONAGENS */
+
+.grade-personagens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.personagem {
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    border-bottom: 3px solid #e62429;
+    transition: 0.3s;
+}
+
+.personagem:hover {
+    transform: translateY(-7px);
+    border-color: #e62429;
+}
+
+.icone-personagem {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.personagem h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.personagem p {
+    color: #bbbbbb;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+/* HISTÓRIA */
+
+.texto-historia {
+    max-width: 850px;
+    margin: auto;
+}
+
+.texto-historia h3 {
+    color: #e62429;
+    margin: 25px 0 12px;
+    font-size: 22px;
+}
+
+.texto-historia p {
+    color: #cccccc;
+    line-height: 1.8;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 900px) {
+    .grade-personagens {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .grade-personagens {
+        grid-template-columns: 1fr;
+    }
+}
