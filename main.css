@@ -79,6 +79,7 @@ body {
     border-radius: 0 5px 5px 0;
 }
 
+
 /* PÁGINA INICIAL */
 
 
@@ -91,41 +92,54 @@ body {
     align-items: center;
     justify-content: flex-start;
 
-    padding: 60px 8%;
+    padding: 60px 6%;
 
-    background:
+    background-image:
         linear-gradient(
             90deg,
-            rgba(0, 0, 0, 0.75),
-            rgba(0, 0, 0, 0.05)
+            rgba(0, 0, 0, 0.85) 0%,
+            rgba(0, 0, 0, 0.55) 35%,
+            rgba(0, 0, 0, 0.05) 100%
         ),
-        url("./marvel-fundo.png") center / cover no-repeat !important;
+        url("./marvel-fundo.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+/* CONTEÚDO */
+
 .conteudo-inicio {
-    max-width: 550px;
+    max-width: 600px;
     position: relative;
     z-index: 1;
+
+    padding: 30px;
+
+    background: rgba(0, 0, 0, 0.35);
+    border-left: 4px solid #e62429;
+    border-radius: 5px;
 }
 
 .conteudo-inicio h2 {
-    font-size: 48px;
-    line-height: 1.15;
+    font-size: 42px;
     color: white;
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
 .conteudo-inicio h2 span {
-    color: #e62429;
-    display: block;
+    color: #ff2525;
 }
 
 .conteudo-inicio p {
-    color: #eeeeee;
+    color: #ffffff;
     font-size: 18px;
     line-height: 1.7;
     margin-bottom: 30px;
 }
+
 
 
 /* BOTÃO EXPLORAR */
